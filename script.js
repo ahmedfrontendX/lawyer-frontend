@@ -1,1 +1,1 @@
-document.write("<h1>wlcome<\h1>")
+// document.write("<h1>wlcome<\h1>")

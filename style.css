@@ -3,13 +3,33 @@
     padding: 0;
     border: 0;
     font-style: initial;
+    color: aliceblue;
     
     
 }
-/* body{
-    background: linear-gradient(#ffa292, #363636);
+body{
+    background: linear-gradient(#000000, #500000);
 
-} */
+}
+
+button:hover{
+    background-color: #f33212;
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: 1s;
+}
+input:focus{
+    transform: scale(1.2);
+    transition: 1s;
+
+
+}
+textarea:focus{
+    transform: scale(1.2);
+    transition: 1s;
+
+
+}
 header{
     display: flex;
     justify-content: space-between;
@@ -24,6 +44,8 @@ header img{
     margin: 30px;
     border-radius: 30px;
     padding: 3px;
+    color: rgb(18, 19, 19);
+
 }
 .b-header:hover{
     background-color: black;
@@ -171,7 +193,7 @@ header img{
 
 .s4-div1{
     width: 500px;
-    background-color: rgba(240, 248, 255, 0.461);
+    background-color: rgba(240, 248, 255, 0.667);
     height: fit-content;
     padding: 50px;
     
@@ -268,4 +290,66 @@ header img{
     height: 150px;
     object-fit: fill;
     margin-bottom: 30px;
+}
+
+
+
+/* ////////////////////////////////////////////////footer/////////////////////////////// */
+
+
+
+.f-div1{
+    background-color: #f33212;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.f-div1 button{
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+
+.f-div4{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+.f-div4 ul{
+    list-style: none;
+    width: 20%;
+    margin: 100px 0;
+
+}
+.f-div4 ul li{
+    margin-top: 20px;
+}
+.f-div4 ul li img{
+    width: 100px;
+}
+.f-div4 ul li button{
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+    background-color: #f33212;
+    color: aliceblue;
+}
+.f-div4 ul li input{
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+
+.f-div4 ul li strong{
+    margin-top: 30px;
+    font-size: 20px;
+}
+.f-div4 ul li a{
+    text-decoration: none;
+    color: aliceblue;
 }
