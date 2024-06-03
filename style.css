@@ -3,21 +3,16 @@
     padding: 0;
     border: 0;
     font-style: initial;
-    color: aliceblue;
+    /* color: aliceblue; */
     
     
 }
 body{
-    background: linear-gradient(#000000, #500000);
+    background: linear-gradient(#f3f3f3, #cac7c7);
 
 }
 
-button:hover{
-    background-color: #f33212;
-    color: aliceblue;
-    transform: scale(1.2);
-    transition: 1s;
-}
+
 input:focus{
     transform: scale(1.2);
     transition: 1s;
@@ -48,7 +43,9 @@ header img{
 
 }
 .b-header:hover{
-    background-color: black;
+    transform: scale(1.2);
+    transition: all 1s;
+    background-color: rgb(255, 0, 0);
     color: aliceblue;
 }
 
@@ -215,6 +212,12 @@ header img{
     border-radius: 20px;
 }
 
+.btnForm:hover{
+    background-color: #f33212;
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: 1s;
+}
 
 /* //////////////////////////////section 5//////////////////////// */
 
@@ -311,6 +314,12 @@ header img{
     border-radius: 10px;
 
 }
+.f-div1 button:hover{
+    background-color: #751200;
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: 1s;
+}
 
 
 .f-div4{
@@ -337,6 +346,12 @@ header img{
     border-radius: 10px;
     background-color: #f33212;
     color: aliceblue;
+}
+.f-div4 ul li button:hover{
+    background-color: #751200;
+    color: aliceblue;
+    transform: scale(1.2);
+    transition: 1s;
 }
 .f-div4 ul li input{
     width: 200px;

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="IMG-20240420-WA0004.jpg">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -21,7 +22,7 @@
             </ul>
         </nav>
             <nav class="nav-2">
-                <button class="b-header">free consultation</button>
+                <button onclick="freeCon()" class="b-header" id="freeConsultation">free consultation</button>
             </nav>
     </header>
     <!--/////////////////////////////////////// section 1 ///////////////////////////////////////////-->
@@ -135,19 +136,19 @@
     <section class="s4">
         <div class="s4-div1">
             <div class="form"><h2>free consultation</h2></div>
-            <form action="save">
+            <form action="">
              <div class="form">
-                <input type="text" placeholder="first name" >
-                <input type="text" placeholder="last name">
+                <input type="text" id="firstName" placeholder="first name" >
+                <input type="text" id="lastName" placeholder="last name">
             </div>
              
              <div class="form">
-                <input type="text" placeholder="health law">
-                <input type="text" placeholder="Email">
+                <input type="text" id="healthLaw" placeholder="health law">
+                <input type="email" id="Email" placeholder="Email">
              </div>
              <div class="form-btn">
-                <textarea name="massege" id="" class="massege" placeholder="entar massege"></textarea>
-                <button type="submit" class="btnForm">submit</button>
+                <textarea name="massege" id="massege" class="massege" placeholder="entar massege"></textarea>
+                <button onclick="savedATA()" type="submit" id="save" class="btnForm">submit</button>
              </div>
             </form>
         </div>
@@ -285,6 +286,7 @@
 
 
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <script src="script.js"></script>
 
 
@@ -301,7 +303,6 @@
 
 
     
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 </html>
